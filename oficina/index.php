@@ -6,12 +6,13 @@
     <title>Oficina mecânica</title>
 </head>
 <body>
-
-    <h1>Oficina O Chicão</h1>
 <form action="processar.php" method = "post">
+    <h1>Oficina O Chicão</h1>
+
+
    <table>
 <tr>
-<th style = "width: 150px; text-align: center;">Item</th>
+<th>Item</th>
 <th>Quantidade</th>
 </tr>
 
@@ -34,10 +35,8 @@
 
 <input type="submit" value="Enviar">
 
-
-
-
 </form>
+
 </body>
 </html>
 
