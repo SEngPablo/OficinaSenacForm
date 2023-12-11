@@ -18,17 +18,17 @@
 
 <tr>
 <td>Pneu</td>
-<td><input type="number" name = "pneu" id = "pneu"></td>
+<td><input type="number" name = "pneu" id = "pneu" value = "0" min = "0"></td>
 </tr>
 
 <tr>
 <td>Oleo</td>
-<td><input type="number" name = "oleo" id = "oleo"></td>
+<td><input type="number" name = "oleo" id = "oleo" value = "0" min = "0"></td>
 </tr>
 
 <tr>
 <td>Velas</td>
-<td><input type="number" name = "vela" id = "vela"></td>
+<td><input type="number" name = "vela" id = "vela" value = "0" min = "0"></td>
 </tr>
 
     </table>
