@@ -1,4 +1,10 @@
-p {
-    font-weight: bold;
+table, th, td {
+    border: 01px solid;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+h1 {
     font-size: 2em;
+    color: brown;
 }

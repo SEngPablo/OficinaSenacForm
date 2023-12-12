@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oficina mecânica</title>
+    <link rel="stylesheet" href="principal.css">
 </head>
 <body>
 <form action="processar.php" method = "post">
@@ -29,6 +30,17 @@
 <tr>
 <td>Velas</td>
 <td><input type="number" name = "vela" id = "vela" value = "0" min = "0"></td>
+</tr>
+
+<tr>
+
+    <td>Como você nos achou?</td>
+    <td><select name="achar" id="achar">
+        <option value="a">Sou cliente</option>
+        <option value="b">Anúncio da TV</option>
+        <option value="c">Telefone</option>
+        <option value="d">Boca a boca</option></select></td>
+
 </tr>
 
     </table>

@@ -15,6 +15,7 @@
 $pneu = $_POST['pneu'];
 $oleo = $_POST['oleo'];
 $vela = $_POST['vela'];
+$achar = $_POST['achar'];
 $valortotal = 0.00;
 $qtdtotal = 0;
 $taxa = 0.22;
@@ -60,6 +61,24 @@ echo 'O valor total com imposto é: '.number_format($valorfinal, 2,',','.').'<br
 $valorfinal = $valorfinal * (1 - $descontopneu);
 
 echo 'O valor total com desconto é de: '.number_format($valorfinal, 2,',','.').'<br>';
+
+switch ($achar) {
+    case 'a':
+        echo '<p>Cliente regular</p>';
+        break;
+    case 'b':
+        echo '<p>Anúncio da TV</p>';
+        break;
+    case 'c':
+        echo '<p>Telefone</p>';
+        break;
+    case 'd':
+        echo '<p>Boca a boca</p>';
+        break;
+    default:
+        echo '<p>Não encontrado</p>';
+        break;
+}
 
 
 
